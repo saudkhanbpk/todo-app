@@ -1,0 +1,39 @@
+
+.todo-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  .btn {
+    width: auto;
+    margin-top: 10px;
+  }
+  .todo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+  }
+  
+  .todo-card {
+    width: 100%;
+    max-width: 300px; 
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 0.375rem; 
+    border: 1px solid #dee2e6; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .todo-card h4 {
+    margin: 0 0 10px;
+  }
+  
+  .todo-card p {
+    margin: 0 0 15px;
+  }
+  
